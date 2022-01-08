@@ -1024,7 +1024,7 @@ footer {
     font-size: 16px;
   }
   .header__content {
-    padding: 40px 18px 200px;
+    padding: 40px 18px 144px;
   }
   .header__phone-image {
     transform: scale(0.3);
@@ -1120,6 +1120,9 @@ footer {
   }
 }
 @media (max-width:400px) {
+  .header__content {
+    padding: 40px 18px 177px;
+  }
   #topics .slick-next {
     right: -20px;
 }
