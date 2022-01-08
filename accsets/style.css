@@ -912,6 +912,16 @@ footer {
   .introduce__description {
     font-size: 14px;
   }
+  /* section mentor  */
+  #mentor .slick-next {
+    right: -25px;
+    font-size: 100px;
+}
+/* section topics */ 
+ #topics .slick-next {
+    right: -25px;
+    font-size: 100px;
+}
   /*section user-evaluate  */
   .user-evaluate__name {
     font-size: 26px;
@@ -1037,7 +1047,7 @@ footer {
   }
 
   #topics .slick-next {
-    right: -10px;
+    right: -4px;
   }
   /* section mentor */
   .mentor__title {
@@ -1048,7 +1058,7 @@ footer {
   }
 
   #mentor .slick-next {
-    right: -10px;
+    right: -4px;
   }
   /* section user-evaluate */
   .user-evaluate__name {
@@ -1097,6 +1107,14 @@ footer {
   .footer__list-center li:first-child {
     margin-left: 0;
   }
+}
+@media (max-width:400px) {
+  #topics .slick-next {
+    right: -20px;
+}
+  #mentor .slick-next {
+    right: -20px;
+}
 }
 @media (max-width: 320px) {
   .nav__logo {
