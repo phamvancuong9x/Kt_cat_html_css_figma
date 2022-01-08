@@ -1041,11 +1041,12 @@ footer {
   /* section topics */
   .topics__title {
     font-size: 20px;
+    line-height: 70px;
   }
   .topics__description {
     font-size: 14px;
     line-height: 27px;
-    margin:0 10px 35px ;
+    margin:0 10px 30px ;
   }
 
   #topics .slick-next {
@@ -1054,6 +1055,7 @@ footer {
   /* section mentor */
   .mentor__title {
     font-size: 20px;
+    line-height: 70px;
   }
   .mentor__description {
     font-size: 16px;
@@ -1064,7 +1066,7 @@ footer {
 .mentor__description {
   font-size: 14px;
   line-height: 27px;
-  margin:0 10px 35px ;
+  margin:0 10px 30px ;
 }
   #mentor .slick-next {
     right: -4px;
