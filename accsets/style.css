@@ -1043,7 +1043,9 @@ footer {
     font-size: 20px;
   }
   .topics__description {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 27px;
+    margin:0 10px 35px ;
   }
 
   #topics .slick-next {
@@ -1056,7 +1058,14 @@ footer {
   .mentor__description {
     font-size: 16px;
   }
-
+  #mentor {
+    padding-bottom: 77px
+;}
+.mentor__description {
+  font-size: 14px;
+  line-height: 27px;
+  margin:0 10px 35px ;
+}
   #mentor .slick-next {
     right: -4px;
   }
