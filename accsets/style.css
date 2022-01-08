@@ -80,6 +80,9 @@ nav {
   letter-spacing: 0.826794px;
   color: #ffffff;
 }
+.nav__logo:hover{
+  color: #fff;
+}
 .nav__icon-bars {
   display: none;
 }
@@ -296,7 +299,14 @@ display: none !important;
   top: 0;
   left: 0;
   padding-right: 18.5px;
-  
+  cursor: pointer;
+}
+.topics__item img{
+  transition: 0.3s linear;
+  filter: grayscale(0%)
+}
+.topics__item:hover img{
+  filter: grayscale(80%)
 }
 .topics__item img{
   margin: auto;
@@ -375,10 +385,18 @@ display: none !important;
   top: 0;
   left: 0;
   padding-right: 18.5px;
+  cursor: pointer;
   
 }
 .mentor__item img{
   margin: auto;
+}
+.mentor__item img{
+  transition: 0.3s linear;
+  filter: grayscale(0%)
+}
+.mentor__item:hover img{
+  filter: grayscale(80%)
 }
 .mentor__item-name {
   white-space: nowrap;
