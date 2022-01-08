@@ -255,7 +255,7 @@ nav {
   width: 120px;
   position: absolute;
   top: 50%;
-  right: -30px;
+  right: -40px;
   transform: translateY(-50%);
   cursor: pointer;
   z-index: 10;
@@ -347,7 +347,7 @@ nav {
   width: 120px;
   position: absolute;
   top: 50%;
-  right: -30px;
+  right: -40px;
   transform: translateY(-50%);
   cursor: pointer;
   z-index: 10;
