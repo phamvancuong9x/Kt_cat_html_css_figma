@@ -80,7 +80,7 @@ nav {
   letter-spacing: 0.826794px;
   color: #ffffff;
 }
-.nav__logo:hover{
+.nav__logo:hover {
   color: #fff;
 }
 .nav__icon-bars {
@@ -248,11 +248,11 @@ nav {
   overflow: hidden;
 }
 #topics .slick-prev {
-display: none !important;
+  display: none !important;
 }
 
 #topics .slick-next {
-  width: 120px;  
+  width: 120px;
   position: absolute;
   top: 50%;
   right: -30px;
@@ -266,12 +266,18 @@ display: none !important;
 }
 #topics .row {
   margin-left: 8px;
-  
 }
-#slick-slide-control10,#slick-slide-control11,#slick-slide-control12,#slick-slide-control13,#slick-slide-control14,#slick-slide-control15,#slick-slide-control16,#slick-slide-control17{
+#slick-slide-control10,
+#slick-slide-control11,
+#slick-slide-control12,
+#slick-slide-control13,
+#slick-slide-control14,
+#slick-slide-control15,
+#slick-slide-control16,
+#slick-slide-control17 {
   display: none;
 }
-#topics .slick-list{
+#topics .slick-list {
   position: relative;
 }
 .topics__title {
@@ -301,14 +307,14 @@ display: none !important;
   padding-right: 18.5px;
   cursor: pointer;
 }
-.topics__item img{
+.topics__item img {
   transition: 0.3s linear;
-  filter: grayscale(0%)
+  filter: grayscale(0%);
 }
-.topics__item:hover img{
-  filter: grayscale(80%)
+.topics__item:hover img {
+  filter: grayscale(80%);
 }
-.topics__item img{
+.topics__item img {
   margin: auto;
 }
 .topics__item-name {
@@ -331,14 +337,14 @@ display: none !important;
   padding-top: 57px;
   padding-bottom: 104px;
   background: #f2f2f2;
-   overflow: hidden;
+  overflow: hidden;
 }
 #mentor .slick-prev {
-display: none !important;
+  display: none !important;
 }
 
 #mentor .slick-next {
-  width: 120px;  
+  width: 120px;
   position: absolute;
   top: 50%;
   right: -30px;
@@ -352,12 +358,18 @@ display: none !important;
 }
 #mentor .row {
   margin-left: 8px;
-  
 }
-#slick-slide-control20,#slick-slide-control21,#slick-slide-control22,#slick-slide-control23,#slick-slide-control24,#slick-slide-control25,#slick-slide-control26,#slick-slide-control27{
+#slick-slide-control20,
+#slick-slide-control21,
+#slick-slide-control22,
+#slick-slide-control23,
+#slick-slide-control24,
+#slick-slide-control25,
+#slick-slide-control26,
+#slick-slide-control27 {
   display: none;
 }
-#mentor .slick-list{
+#mentor .slick-list {
   position: relative;
 }
 .mentor__title {
@@ -386,17 +398,16 @@ display: none !important;
   left: 0;
   padding-right: 18.5px;
   cursor: pointer;
-  
 }
-.mentor__item img{
+.mentor__item img {
   margin: auto;
 }
-.mentor__item img{
+.mentor__item img {
   transition: 0.3s linear;
-  filter: grayscale(0%)
+  filter: grayscale(0%);
 }
-.mentor__item:hover img{
-  filter: grayscale(80%)
+.mentor__item:hover img {
+  filter: grayscale(80%);
 }
 .mentor__item-name {
   white-space: nowrap;
@@ -586,7 +597,6 @@ footer {
   }
 }
 @media (max-width: 1200px) {
-
   .sign-up-now__text {
     max-width: 791px;
     font-size: 34px;
@@ -594,15 +604,18 @@ footer {
   .user-evaluate__content {
     max-width: 800px;
   }
-  .topics__item-name{
+  .topics__item-name {
     font-size: 22px;
-  }
-  .mentor__item-name{
-    font-size: 22px;
-  }
-  #topics .slick-next {
+  }#topics .slick-next {
     right: -40px;
-}}
+  }
+  .mentor__item-name {
+    font-size: 22px;
+  }
+  #mentor .slick-next {
+    right: -40px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
   nav {
     margin: 0 22px 0 0px;
@@ -690,7 +703,7 @@ footer {
     z-index: 0;
   }
 }
-  @media (max-width: 1023px) {
+@media (max-width: 1023px) {
   .nav__mobile-menu-content {
     position: fixed;
     top: 0;
@@ -801,12 +814,12 @@ footer {
     margin: 0 10px;
     line-height: 27px;
   }
- /*  section topic*/
- .topics__title{
-  font-size: 27px;
-}
+  /*  section topic*/
+  .topics__title {
+    font-size: 27px;
+  }
   /*  section mentor*/
-  .mentor__title{
+  .mentor__title {
     font-size: 27px;
   }
   /*section user-evaluate  */
@@ -858,7 +871,7 @@ footer {
   .footer__item {
     padding: 5px 0;
   }
-}  
+}
 @media (max-width: 767px) {
   .header__content-title {
     font-size: 35px;
@@ -1015,28 +1028,28 @@ footer {
   .introduce__title {
     font-size: 20px;
   }
-/* section topics */
-.topics__title{
-  font-size: 20px;
-}
-.topics__description{
-  font-size: 16px;
-}
+  /* section topics */
+  .topics__title {
+    font-size: 20px;
+  }
+  .topics__description {
+    font-size: 16px;
+  }
 
-#topics .slick-next {
-  right: -10px;
-}
-/* section mentor */
-.mentor__title{
-  font-size: 20px;
-}
-.mentor__description{
-  font-size: 16px;
-}
+  #topics .slick-next {
+    right: -10px;
+  }
+  /* section mentor */
+  .mentor__title {
+    font-size: 20px;
+  }
+  .mentor__description {
+    font-size: 16px;
+  }
 
-#mentor .slick-next {
-  right: -10px;
-}
+  #mentor .slick-next {
+    right: -10px;
+  }
   /* section user-evaluate */
   .user-evaluate__name {
     margin-bottom: 25px;
