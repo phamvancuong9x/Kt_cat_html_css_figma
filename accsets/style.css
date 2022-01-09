@@ -914,13 +914,13 @@ footer {
   }
   /* section mentor  */
   #mentor .slick-next {
-    right: -25px;
-    font-size: 100px;
+    right: -27px;
+  width: 100px;
 }
 /* section topics */ 
  #topics .slick-next {
-    right: -25px;
-    font-size: 100px;
+  right: -27px;
+  width: 100px;
 }
   /*section user-evaluate  */
   .user-evaluate__name {
@@ -952,6 +952,7 @@ footer {
     padding: 11px 16px 11px;
   }
 }
+
 @media (max-width: 600px) {
   .header__phone-image {
     transform: scale(0.5);
@@ -1050,7 +1051,7 @@ footer {
   }
 
   #topics .slick-next {
-    right: -4px;
+    right: 8px;
   }
   /* section mentor */
   .mentor__title {
@@ -1069,7 +1070,7 @@ footer {
   margin:0 10px 30px ;
 }
   #mentor .slick-next {
-    right: -4px;
+    right: 8px;
   }
   /* section user-evaluate */
   .user-evaluate__name {
@@ -1124,10 +1125,10 @@ footer {
     padding: 40px 18px 177px;
   }
   #topics .slick-next {
-    right: -20px;
+    right: -14px;
 }
   #mentor .slick-next {
-    right: -20px;
+    right: -14px;
 }
 }
 @media (max-width: 320px) {
