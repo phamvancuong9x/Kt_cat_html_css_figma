@@ -1150,13 +1150,17 @@ footer {
 @media (max-width: 320px) {
   .nav__logo {
     margin-left: 22px;
+    font-size: 25px;
   }
   .nav__mobile-menu-content {
     right: -250px;
     width: 250px;
   }
+  .header__content-title{
+    font-size: 20px;
+  }
   .header__content {
-    padding: 40px 14px 120px;
+    padding: 40px 14px 160px;
   }
   .header__content-describer {
     font-size: 14px;
