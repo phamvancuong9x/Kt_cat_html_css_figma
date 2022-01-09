@@ -1083,10 +1083,12 @@ footer {
     margin-bottom: 20px;
   }
   #user-evaluate .slick-prev {
-    left: -10px;
+    left: 0;
+    width: 80px;
   }
   #user-evaluate .slick-next {
-    right: -10px;
+    right: 0;
+    width: 80px;
   }
   .user-evaluate__start {
     font-size: 16px;
