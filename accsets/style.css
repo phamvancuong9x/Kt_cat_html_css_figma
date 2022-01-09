@@ -573,13 +573,15 @@ footer {
   color: rgb(0, 60, 255);
 }
 .footer__list-right li:nth-child(2) i:hover {
-  color: rgb(238, 139, 9);
+  color: #1b84b0;
 }
 .footer__list-right li:nth-child(3) i:hover {
-  color: red;
+  
+  color: rgb(238, 139, 9);
 }
 .footer__list-right li:last-child i:hover {
-  color: #1b84b0;
+  
+  color: red;
 }
 
 /* responsive */
@@ -1132,39 +1134,32 @@ footer {
   #mentor .slick-next {
     right: -14px;
 }
+.header__content-btn .btn:first-child {
+  padding: 5px 10px 5px;
+  font-size: 14px;
+}
+.header__content-btn .btn:last-child {
+  padding: 5px 3px 5px;
+  font-size: 14px;
+}
+.header__content-title {
+  font-size: 23px;
+  line-height: 50px;
+}
 }
 @media (max-width: 320px) {
   .nav__logo {
     margin-left: 22px;
   }
   .nav__mobile-menu-content {
-    position: fixed;
-    top: 0;
     right: -250px;
     width: 250px;
-  }
-  .header__content-title {
-    font-size: 23px;
-    line-height: 50px;
   }
   .header__content {
     padding: 40px 14px 120px;
   }
   .header__content-describer {
     font-size: 14px;
-  }
-  .header__content-btn .btn:first-child {
-    padding: 5px 10px 5px;
-    font-size: 14px;
-  }
-  .header__content-btn .btn:last-child {
-    padding: 5px 3px 5px;
-    font-size: 14px;
-  }
-  .header__phone-image {
-    transform: scale(0.2);
-    bottom: -355px;
-    right: -206px;
   }
 
   /* section introduce */
