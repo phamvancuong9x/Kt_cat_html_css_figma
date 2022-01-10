@@ -590,7 +590,7 @@ footer {
     max-width: 1370px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .nav__mobile-menu {
     display: none;
   }
